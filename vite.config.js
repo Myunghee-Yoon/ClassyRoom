@@ -2,6 +2,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/ClassyRoom/', // GitHub Pages 배포를 위한 base 경로 설정
+  base: '/', // 맞춤 도메인을 사용할 때는 루트 경로로 설정
   plugins: [react()],
 });
